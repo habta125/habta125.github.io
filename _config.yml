@@ -1,0 +1,25 @@
+theme: minima
+
+title: "Habtamu Menberu Tedila"
+description: "Postdoctoral Researcher · Radio Astronomy"
+
+author:
+  name: "Habtamu Menberu Tedila"
+  role: "Postdoctoral Researcher"
+  tagline: "Radio astronomy, pulsars"
+  location: "Montreal, QC, Canada"
+  affiliation: "McGill University"
+
+links:
+  email: "your.email@mcgill.ca"   # change later
+  github: "habta125"
+  orcid: ""
+  scholar: ""
+  cv_pdf: "/assets/cv.pdf"
+
+header_pages:
+  - research.md
+  - publications.md
+  - teaching.md
+  - cv.md
+  - contact.md
