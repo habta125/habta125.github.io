@@ -1,0 +1,42 @@
+<div class="profile">
+  <div class="profile-photo">
+    <img src="{{ "/assets/img/profile.jpg" | relative_url }}" alt="Profile photo">
+  </div>
+
+  <div class="profile-name">{{ site.author.name }}</div>
+  <div class="profile-role">{{ site.author.role }}</div>
+  <div class="profile-tagline">{{ site.author.tagline }}</div>
+
+  <ul class="profile-meta">
+    {% if site.author.location %}
+      <li><span class="icon">📍</span><span>{{ site.author.location }}</span></li>
+    {% endif %}
+    {% if site.author.affiliation %}
+      <li><span class="icon">🏛️</span><span>{{ site.author.affiliation }}</span></li>
+    {% endif %}
+  </ul>
+
+  <div class="profile-links">
+    {% if site.links.email %}
+      <a class="plink" href="mailto:{{ site.links.email }}"><span class="icon">✉️</span>Email</a>
+    {% endif %}
+    {% if site.links.github %}
+      <a class="plink" href="https://github.com/{{ site.links.github }}" target="_blank" rel="noopener">
+        <span class="icon">🐙</span>GitHub
+      </a>
+    {% endif %}
+    {% if site.links.orcid and site.links.orcid != "" %}
+      <a class="plink" href="https://orcid.org/{{ site.links.orcid }}" target="_blank" rel="noopener">
+        <span class="icon">🆔</span>ORCID
+      </a>
+    {% endif %}
+    {% if site.links.scholar and site.links.scholar != "" %}
+      <a class="plink" href="{{ site.links.scholar }}" target="_blank" rel="noopener">
+        <span class="icon">📚</span>Scholar
+      </a>
+    {% endif %}
+    {% if site.links.cv_pdf %}
+      <a class="plink" href="{{ site.links.cv_pdf | relative_url }}"><span class="icon">📄</span>CV (PDF)</a>
+    {% endif %}
+  </div>
+</div>
