@@ -26,3 +26,5 @@ header_pages:
   - teaching.md
   - cv.md
   - contact.md
+  
+# force rebuild
