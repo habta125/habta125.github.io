@@ -4,8 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-## Publications
-
 The publications listed here summarize my recent peer-reviewed research on pulsar emission physics and single-pulse phenomena, based on observations with FAST and other major radio facilities. A complete publication record is available on [ADS](https://ui.adsabs.harvard.edu/search?q=author%3A%22H.M.Tedila%22&sort=date%20desc%2C%20bibcode%20desc).
 
 1. **[Multi-Faceted Emission Properties of PSR J2129+4119 Observed with FAST](https://ui.adsabs.harvard.edu/abs/2026ApJ...997...24T/abstract)**  
