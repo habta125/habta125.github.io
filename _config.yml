@@ -1,8 +1,9 @@
-theme: minima
+# theme: minima
+theme: null
+markdown: kramdown
 
 title: "Habtamu Menberu Tedila"
 description: "Postdoctoral Researcher · Radio Astronomy"
-
 author: "Habtamu Menberu Tedila"
 
 profile:
@@ -12,9 +13,8 @@ profile:
   location: "Montreal, QC, Canada"
   affiliation: "McGill University"
 
-
 links:
-  email: "habtamu.tedila@mcgill.ca"   
+  email: "habtamu.tedila@mcgill.ca"
   github: "habta125"
   orcid: "0000-0002-5815-6548"
   scholar: ""
@@ -26,5 +26,3 @@ header_pages:
   - teaching.md
   - cv.md
   - contact.md
-  
-# force rebuild
