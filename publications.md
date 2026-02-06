@@ -4,47 +4,39 @@ title: Publications
 permalink: /publications/
 ---
 
-## Peer-Reviewed Journal Articles (Selected)
+## Publications
 
-1. **Tedila, H. M.**, Li, D., Wang, P., Yuen, R., et al. (2026).  
-   *Multi-Faceted Emission Properties of PSR J2129+4119 Observed with FAST*.  
-   **The Astrophysical Journal**, 997(1), 24.
+Below is a selection of my recent scientific publications in peer-reviewed journals, primarily focused on pulsar emission physics and single-pulse studies using FAST and other major radio facilities. A complete list of my publications is available on NASA ADS.
 
-2. **Tedila, H. M.**, Li, D., Wang, P., Yuen, R., Yuan, J. P., Wang, N., et al. (2025).  
-   *Unveiling the emission properties of three long-period pulsars using FAST*.  
-   **The Astrophysical Journal Supplement Series**, 277(2), 39.
+**[Multi-Faceted Emission Properties of PSR J2129+4119 Observed with FAST](https://ui.adsabs.harvard.edu/abs/2026ApJ...997...24T/abstract)**  
+H. M. Tedila, D. Li, P. Wang, R. Yuen, et al., 2026, *The Astrophysical Journal*, 997(1), 24.
 
-3. **Tedila, H. M.**, Li, D., Yuen, R., Wang, N., et al. (2024).  
-   *Investigation of profile shifting and subpulse movement in PSR J0344−0901 with FAST*.  
-   **The Astrophysical Journal**, 965, 144.
+**[Unveiling the emission properties of three long-period pulsars using FAST](https://ui.adsabs.harvard.edu/abs/2025ApJS..277...39T/abstract)**  
+H. M. Tedila, D. Li, P. Wang, R. Yuen, J. P. Yuan, N. Wang, et al., 2025, *The Astrophysical Journal Supplement Series*, 277(2), 39.
 
-4. Cai, Y., Dang, S. J., **Tedila, H. M.\***, Shang, L. H., et al. (2025).  
-   *The single-pulse study of PSR J0535−0231 discovered by FAST*.  
-   **Monthly Notices of the Royal Astronomical Society**, 544(1), 299.
+**[Investigation of profile shifting and subpulse movement in PSR J0344−0901 with FAST](https://ui.adsabs.harvard.edu/abs/2024ApJ...965..144T/abstract)**  
+H. M. Tedila, D. Li, R. Yuen, N. Wang, et al., 2024, *The Astrophysical Journal*, 965, 144.
 
-5. Dang, S. J., Yuan, J. P., Shang, L. H., Xu, X., **Tedila, H. M.**, et al. (2024).  
-   *Polarization and single-pulse microstructure studies of RRAT J0139+3336 with FAST*.  
-   **Monthly Notices of the Royal Astronomical Society**, 528, 13.
+**[The single-pulse study of PSR J0535−0231 discovered by FAST](https://ui.adsabs.harvard.edu/abs/2025MNRAS.544..299C/abstract)**  
+Y. Cai, S. J. Dang, **H. M. Tedila**, L. H. Shang, et al., 2025, *Monthly Notices of the Royal Astronomical Society*, 544(1), 299.
 
-6. Rejep, R., Zhu, W. W., Wang, N., et al. (including **Tedila, H. M.**) (2025).  
-   *A detailed single-pulse study of four-component pulsar PSR J1239+0326*.  
-   **The Astrophysical Journal**, 985, 11.
+**[Polarization and single-pulse microstructure studies of RRAT J0139+3336 with FAST](https://ui.adsabs.harvard.edu/abs/2024MNRAS.528...13D/abstract)**  
+S. J. Dang, J. P. Yuan, L. H. Shang, X. Xu, **H. M. Tedila**, et al., 2024, *Monthly Notices of the Royal Astronomical Society*, 528, 13.
 
-7. Yuen, R., **Tedila, H. M.** (2025).  
-   *Changes in emission properties associated with shifts in PSR J0344−0901*.  
-   **Universe**, 11, 165.
+**[A detailed single-pulse study of the four-component pulsar PSR J1239+0326](https://ui.adsabs.harvard.edu/abs/2025ApJ...985...11R/abstract)**  
+R. Rejep, W. W. Zhu, N. Wang, et al. (including **H. M. Tedila**), 2025, *The Astrophysical Journal*, 985, 11.
 
-8. **Tedila, H. M.**, Yuen, R., Wang, N., Yuan, J. Y., Wen, Z. G., Yan, W. M., et al. (2022).  
-   *Emission variation of a long-period pulsar discovered by FAST*.  
-   **The Astrophysical Journal**, 929(2), 171.
+**[Changes in emission properties associated with shifts in PSR J0344−0901](https://ui.adsabs.harvard.edu/abs/2025Universe..11..165Y/abstract)**  
+R. Yuen, **H. M. Tedila**, 2025, *Universe*, 11, 165.
 
-9. Wu, Q. D., Zhu, W. W., Wang, N., et al. (including **Tedila, H. M.**) (2023).  
-   *Follow-up timing of 24 pulsars discovered in CRAFTS*.  
-   **Monthly Notices of the Royal Astronomical Society**, 522, 5152.
+**[Emission variation of a long-period pulsar discovered by FAST](https://ui.adsabs.harvard.edu/abs/2022ApJ...929..171T/abstract)**  
+H. M. Tedila, R. Yuen, N. Wang, J. Y. Yuan, Z. G. Wen, W. M. Yan, et al., 2022, *The Astrophysical Journal*, 929(2), 171.
 
-10. **Tedila, H. M.**, Yuen, R., Han, X. H. (2021).  
-    *Properties of the emission region in pulsars with opposite subpulse drift directions*.  
-    **Astrophysics and Space Science**, 366(10), 100.
+**[Follow-up timing of 24 pulsars discovered in CRAFTS](https://ui.adsabs.harvard.edu/abs/2023MNRAS.522.5152W/abstract)**  
+Q. D. Wu, W. W. Zhu, N. Wang, et al. (including **H. M. Tedila**), 2023, *Monthly Notices of the Royal Astronomical Society*, 522, 5152.
+
+**[Properties of the emission region in pulsars with opposite subpulse drift directions](https://ui.adsabs.harvard.edu/abs/2021ApSS..366..100T/abstract)**  
+H. M. Tedila, R. Yuen, X. H. Han, 2021, *Astrophysics and Space Science*, 366(10), 100.
 
 ---
 
