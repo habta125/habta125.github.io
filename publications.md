@@ -6,7 +6,7 @@ permalink: /publications/
 
 ## Publications
 
-Below is a selection of my recent scientific publications in peer-reviewed journals, primarily focused on pulsar emission physics and single-pulse studies using FAST and other major radio facilities. A complete list of my publications is available on NASA ADS.
+The publications listed here summarize my recent peer-reviewed work on pulsar emission physics and single-pulse phenomena, based on observations with FAST and other major radio facilities. My full publication record is available on NASA ADS: https://ui.adsabs.harvard.edu/search/q=author%3A%22H.M.Tedila%22&sort=date%20desc%2C%20bibcode%20desc
 
 1. **[Multi-Faceted Emission Properties of PSR J2129+4119 Observed with FAST](https://ui.adsabs.harvard.edu/abs/2026ApJ...997...24T/abstract)**  
    H. M. Tedila, D. Li, P. Wang, R. Yuen, et al., 2026, *The Astrophysical Journal*, 997(1), 24.
