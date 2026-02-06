@@ -1,21 +1,47 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {%- include head.html -%}
-  <body>
-    {%- include header.html -%}
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ page.title }} | {{ site.title }}</title>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper two-col">
-        <aside class="sidebar">
-          {%- include sidebar.html -%}
-        </aside>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
 
-        <section class="content">
-          {{ content }}
-        </section>
+<body>
+  <div class="wrapper">
+
+    <aside class="sidebar">
+      <h2>{{ site.profile.name }}</h2>
+      <div class="muted">{{ site.profile.role }}</div>
+      <div class="muted">{{ site.profile.affiliation }}</div>
+      <div class="muted">{{ site.profile.location }}</div>
+
+      <p class="tagline">{{ site.profile.tagline }}</p>
+
+      <nav class="nav">
+        {% for p in site.header_pages %}
+          {% assign my_page = site.pages | where: "path", p | first %}
+          {% if my_page %}
+            <a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+
+      <div class="links">
+        <a href="mailto:{{ site.links.email }}">Email</a>
+        <a href="https://github.com/{{ site.links.github }}">GitHub</a>
+        <a href="https://orcid.org/{{ site.links.orcid }}">ORCID</a>
+        {% if site.links.cv_pdf != "" %}
+          <a href="{{ site.links.cv_pdf | relative_url }}">CV (PDF)</a>
+        {% endif %}
       </div>
+    </aside>
+
+    <main class="content">
+      {{ content }}
     </main>
 
-    {%- include footer.html -%}
-  </body>
+  </div>
+</body>
 </html>
