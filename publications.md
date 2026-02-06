@@ -4,8 +4,6 @@ title: Publications
 permalink: /publications/
 ---
 
-## Publications
-
 Below is a selection of my recent scientific publications in peer-reviewed journals, primarily focused on pulsar emission physics and single-pulse studies using FAST and other major radio facilities. A complete list of my publications is available on NASA ADS.
 
 1. **[Multi-Faceted Emission Properties of PSR J2129+4119 Observed with FAST](https://ui.adsabs.harvard.edu/abs/2026ApJ...997...24T/abstract)**  
