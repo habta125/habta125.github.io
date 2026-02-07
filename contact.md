@@ -11,7 +11,7 @@ You can contact me via email for academic collaboration, research discussions, o
 ---
 
 **Email:**  
-your.email@mcgill.ca  
+habtamu.tedila@mcgill.ca  
 
 ---
 
@@ -30,5 +30,5 @@ Canada H3A 2T8
 
 **Professional Profiles:**  
 - GitHub: https://github.com/habta125  
-- Google Scholar: (add link)  
-- ORCID: (add link)
+- Google Scholar: https://scholar.google.com/citations?user=vNIYJjoAAAAJ&hl=en 
+- ORCID: https://orcid.org/0000-0002-5815-6548
