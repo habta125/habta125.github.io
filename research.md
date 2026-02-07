@@ -1,6 +1,6 @@
 ---
 layout: pagex
-permalink: /research/
+permalink: 
 ---
 
 ## Research Overview
