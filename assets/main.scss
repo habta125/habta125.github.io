@@ -69,6 +69,65 @@
 }
 
 /* ===============================
+   Sidebar (Ayush-style add-on)
+   =============================== */
+
+.profile-name {
+  margin: 12px 0 8px 0;
+  font-size: 1.85rem;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #222;
+}
+
+.profile-bio {
+  margin: 0 0 18px 0;
+  color: #666;
+  font-size: 1.02rem;
+  line-height: 1.5;
+}
+
+.profile-meta,
+.profile-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-meta li,
+.profile-links li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  color: #444;
+}
+
+.profile-links {
+  margin-top: 6px;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.profile-links li a {
+  color: #444;
+  text-decoration: none;
+}
+
+.profile-links li a:hover {
+  text-decoration: underline;
+}
+
+.profile-meta svg,
+.profile-links svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  fill: #444;
+  opacity: 0.9;
+}
+
+/* ===============================
    Top navigation (FULL-WIDTH + centered)
    =============================== */
 
