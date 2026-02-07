@@ -4,38 +4,32 @@ title: Research
 permalink: /research/
 ---
 
-## Research Interests
+## Research Overview
 
-My research focuses on the observational and physical understanding of radio emission from neutron stars, particularly radio pulsars and fast radio bursts (FRBs). I combine high-sensitivity radio observations with advanced data analysis techniques to investigate emission variability, magnetospheric processes, and timing behavior.
+My research focuses on the observational and physical understanding of radio emission from neutron stars, particularly radio pulsars and fast radio bursts (FRBs). I combine high-sensitivity radio observations with advanced data analysis techniques to investigate emission variability, magnetospheric processes, and pulsar timing behavior.
 
----
-
-## Current Research Work
+## Current Research Topics
 
 ### Radio Pulsars
-- Single-pulse emission analysis and pulse-to-pulse variability  
-- Nulling, mode changing, and emission state transitions  
-- Polarization and emission geometry studies  
+- Single-pulse emission analysis and pulse-to-pulse variability
+- Nulling, mode changing, and emission state transitions
+- Polarization properties and emission geometry
 
 ### Fast Radio Bursts (FRBs)
-- Investigating possible connections between pulsars, magnetars, and FRBs  
-- Statistical and spectral properties of burst emission  
-- Comparative studies using pulsar single-pulse data  
+- Exploring physical connections between pulsars, magnetars, and FRBs
+- Statistical, temporal, and spectral properties of burst emission
+- Comparative studies using pulsar single-pulse datasets
 
 ### Pulsar Timing
-- High-precision timing analysis  
-- Long-term timing behavior and rotational irregularities  
-- Applications to gravitational wave detection  
+- High-precision timing analysis
+- Long-term rotational evolution and timing irregularities
+- Applications to gravitational-wave detection with pulsar timing arrays
 
----
+## Observational Facilities and Data
+- FAST (Five-hundred-meter Aperture Spherical Radio Telescope)
+- Additional international radio observatories through collaborations
 
-## Observational Facilities & Data
-- FAST (Five-hundred-meter Aperture Spherical Radio Telescope)  
-- Other international radio observatories (as collaborator)
-
----
-
-## Analysis Tools & Methods
-- Single-pulse and timing analysis  
-- Python-based data processing  
-- Statistical modeling of emission properties
+## Analysis Tools and Methods
+- Single-pulse and timing analysis pipelines
+- Python-based data processing and visualization
+- Statistical modeling of emission and variability properties
