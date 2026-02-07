@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: pagex
 title: Home
 permalink: /
 ---
@@ -9,3 +9,4 @@ permalink: /
 **Postdoctoral Researcher, McGill University**
 
 I am a postdoctoral researcher working in radio astronomy, with a focus on pulsars and fast radio bursts.
+
