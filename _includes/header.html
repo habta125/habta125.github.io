@@ -5,12 +5,11 @@
     </div>
 
     <nav class="nav-links">
-      <a href="{{ '/research/' | relative_url }}" class="{% if page.url == '/research/' %}active{% endif %}">Research</a>
-      <a href="{{ '/teaching/' | relative_url }}" class="{% if page.url == '/teaching/' %}active{% endif %}">Teaching and Outreach</a>
-      <a href="{{ '/publications/' | relative_url }}" class="{% if page.url == '/publications/' %}active{% endif %}">Publications</a>
-      <a href="{{ '/cv/' | relative_url }}" class="{% if page.url == '/cv/' %}active{% endif %}">CV</a>
-      <a href="{{ '/contact/' | relative_url }}" class="{% if page.url == '/contact/' %}active{% endif %}">Contact</a>
+      {% for page in site.header_pages %}
+        <a href="{{ page | relative_url }}">{{ page | replace: '.md','' | capitalize }}</a>
+      {% endfor %}
     </nav>
   </div>
 </header>
+
 
