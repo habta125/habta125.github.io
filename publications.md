@@ -1,5 +1,5 @@
 ---
-layout: page_two_col
+layout: pagex
 title: Publications
 permalink: /publications/
 ---
