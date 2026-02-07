@@ -1,4 +1,5 @@
 ---
+---
 
 /* IMPORTANT:
    Do NOT import "minima" unless your theme is minima.
@@ -116,13 +117,28 @@
 }
 
 /* ===============================
-   Footer
+   Footer (centered)
    =============================== */
 
 .site-footer {
   margin-top: 48px;
   padding: 24px 0;
   border-top: 1px solid #e6e6e6;
+}
+
+/* Center footer text if footer uses a wrapper/footer-inner */
+.site-footer .wrapper,
+.site-footer .footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+/* Also center any direct paragraph in footer (safe fallback) */
+.site-footer p {
+  margin: 0;
+  text-align: center;
 }
 
 /* ===============================
