@@ -5,11 +5,6 @@ permalink: /cv/
 ---
 
 ## CV
-
-## Habtamu Menberu Tedila
-
-**Postdoctoral Researcher | Radio Astronomy**
-
 ---
 
 ## Research Interests
