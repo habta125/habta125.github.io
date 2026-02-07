@@ -1,5 +1,6 @@
 ---
 layout: pagex
+title: Teaching
 permalink: /teaching/
 ---
 
