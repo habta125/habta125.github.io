@@ -7,31 +7,29 @@
   background: #ffffff;
 }
 
-.top-nav {
+.site-header .top-nav {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 22px 32px;   /* more horizontal & vertical space */
+  padding: 22px 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-/* Site title (left) */
-.site-title a {
+.site-header .site-title a {
   font-size: 1.15rem;
   font-weight: 500;
   text-decoration: none;
   color: #555;
 }
 
-/* Navigation links (right) */
-.nav-links {
+.site-header .nav-links {
   display: flex;
   align-items: center;
-  gap: 34px;   /* key: wider spacing like reference */
+  gap: 34px;
 }
 
-.nav-links a {
+.site-header .nav-links a {
   font-size: 0.95rem;
   font-weight: 400;
   color: #6a6a6a;
@@ -40,26 +38,23 @@
   white-space: nowrap;
 }
 
-.nav-links a:hover {
+.site-header .nav-links a:hover {
   color: #000;
-  text-decoration: none;
 }
 
-/* Active page (optional but recommended) */
-.nav-links a.active {
+.site-header .nav-links a.active {
   color: #000;
   font-weight: 500;
 }
 
-/* Mobile */
 @media (max-width: 900px) {
-  .top-nav {
+  .site-header .top-nav {
     flex-direction: column;
     align-items: flex-start;
     gap: 14px;
   }
 
-  .nav-links {
+  .site-header .nav-links {
     gap: 18px;
     flex-wrap: wrap;
   }
