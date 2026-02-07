@@ -1,6 +1,6 @@
 ---
 layout: pagex
-title: Research
+title: Publications
 permalink: /publications/
 ---
 
