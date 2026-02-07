@@ -1,6 +1,5 @@
 ---
 layout: pagex
-title: Research
 permalink: /research/
 ---
 
