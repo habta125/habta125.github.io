@@ -1,11 +1,10 @@
 <footer class="site-footer">
-  <div class="wrapper">
+  <div class="footer-inner">
     <p class="muted">
-      © {{ site.time | date: '%Y' }} {{ site.title }}.
-      {% if site.last_build_date %}
-        Last updated: {{ site.last_build_date }}.
-      {% endif %}
+      © {{ site.time | date: "%Y" }} {{ site.title }}.
+      Last updated: {{ site.time | date: "%Y-%m-%d" }}.
     </p>
   </div>
 </footer>
+
 
