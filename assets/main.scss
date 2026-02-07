@@ -3,7 +3,7 @@
 
 @import "minima";
 
-/* Two-column layout */
+/* ===== Two-column layout ===== */
 .two-col {
   display: grid;
   grid-template-columns: 320px minmax(0, 1fr);
@@ -20,10 +20,10 @@
 }
 
 .content {
-  min-width: 0;
+  min-width: 0; /* prevents overflow */
 }
 
-/* Sidebar card */
+/* ===== Sidebar card ===== */
 .profile {
   border: 1px solid #e6e6e6;
   border-radius: 14px;
@@ -31,6 +31,17 @@
   background: #fff;
 }
 
+.profile h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+/* Nav links */
 .nav a {
   display: block;
   padding: 8px 10px;
@@ -42,19 +53,27 @@
   background: #f3f3f3;
 }
 
+/* Small muted text */
 .muted {
   color: #666;
   font-size: 0.95rem;
 }
 
-/* Footer */
+/* Links area */
+.links a {
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+/* ===== Footer ===== */
 .site-footer {
   margin-top: 48px;
   padding: 24px 0;
   border-top: 1px solid #e6e6e6;
 }
 
-/* Mobile */
+/* ===== Mobile ===== */
 @media (max-width: 900px) {
   .two-col { grid-template-columns: 1fr; }
   .sidebar { position: relative; top: auto; }
