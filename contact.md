@@ -1,7 +1,7 @@
 ---
 layout: pagex
-##title: Contact
-permalink: /contact/
+title: Contact
+permalink: /
 ---
 
 You can contact me via email for academic collaboration, research discussions, or teaching-related matters.
