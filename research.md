@@ -1,10 +1,10 @@
-_Last updated: 2026-02-07_
-
 ---
 layout: pagex
 title: Research
 permalink: /research/
 ---
+
+_Last updated: 2026-02-07_
 
 ## Research Overview
 
