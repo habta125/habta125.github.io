@@ -3,9 +3,8 @@
 
 @import "minima";
 
-
-/* Layout */
-.two-col{
+/* Two-column layout */
+.two-col {
   display: grid;
   grid-template-columns: 320px minmax(0, 1fr);
   gap: 48px;
@@ -14,45 +13,49 @@
   padding: 24px;
 }
 
-.sidebar{
+.sidebar {
   position: sticky;
   top: 24px;
   height: fit-content;
 }
 
-.content{ min-width: 0; }
+.content {
+  min-width: 0;
+}
 
 /* Sidebar card */
-.profile{
+.profile {
   border: 1px solid #e6e6e6;
   border-radius: 14px;
   padding: 20px;
   background: #fff;
 }
 
-.nav a{
+.nav a {
   display: block;
   padding: 8px 10px;
   border-radius: 10px;
   text-decoration: none;
 }
 
-.nav a:hover{ background: #f3f3f3; }
+.nav a:hover {
+  background: #f3f3f3;
+}
 
-.muted{
+.muted {
   color: #666;
   font-size: 0.95rem;
 }
 
 /* Footer */
-.site-footer{
+.site-footer {
   margin-top: 48px;
   padding: 24px 0;
   border-top: 1px solid #e6e6e6;
 }
 
 /* Mobile */
-@media (max-width: 900px){
-  .two-col{ grid-template-columns: 1fr; }
-  .sidebar{ position: relative; top: auto; }
+@media (max-width: 900px) {
+  .two-col { grid-template-columns: 1fr; }
+  .sidebar { position: relative; top: auto; }
 }
