@@ -1,12 +1,15 @@
-{% for path in site.header_pages %}
-  {% assign p = site.pages | where: "path", path | first %}
-  {% if p %}
-    <a href="{{ p.url | relative_url }}"
-       class="{% if page.url == p.url %}active{% endif %}">
-      {{ p.title }}
-    </a>
-  {% endif %}
-{% endfor %}
+<header class="site-header">
+  <div class="top-nav">
+    <div class="site-title">
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    </div>
 
+    <nav class="nav-links">
+      {% for page in site.header_pages %}
+        <a href="{{ page | relative_url }}">{{ page | replace: '.md','' | capitalize }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
 
 
