@@ -1,7 +1,7 @@
 ---
 layout: pagex
 title: Research
-permalink: /teaching/
+permalink: /research/
 ---
 
 ## Research Interests
