@@ -1,6 +1,5 @@
 ---
 layout: pagex
-title: CV
 permalink: /cv/
 ---
 
