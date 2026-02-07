@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: pagex
 title: Contact
 permalink: /contact/
 ---
+
+## Contact
 
 You can contact me via email for academic collaboration, research discussions, or teaching-related matters.
 
