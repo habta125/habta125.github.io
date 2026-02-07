@@ -1,6 +1,6 @@
 ---
 layout: pagex
-title: Contact
+##title: Contact
 permalink: /contact/
 ---
 
