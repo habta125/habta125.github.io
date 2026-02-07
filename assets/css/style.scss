@@ -71,9 +71,4 @@
 
 .content h1 { margin-top: 0; }
 
-/* Mobile */
-@media (max-width: 900px) {
-  .two-col { grid-template-columns: 1fr; }
-  .sidebar { position: static; }
-  .profile-photo { width: 180px; height: 180px; }
-}
+
