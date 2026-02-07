@@ -4,8 +4,6 @@ title: Teaching
 permalink: /teaching/
 ---
 
-## Teaching Experience
-
 ### University-Level Teaching
 - **Lecturer**, Arba Minch University (Ethiopia)
   - Taught undergraduate courses in Physics and Astronomy
