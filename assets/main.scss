@@ -1,80 +1,54 @@
----
----
+/* ===============================
+   Top navigation (clean & academic)
+   =============================== */
 
-@import "minima";
+.site-header {
+  border-bottom: 1px solid #e6e6e6;
+  background: #ffffff;
+}
 
-/* ===== Two-column layout ===== */
-.two-col {
-  display: grid;
-  grid-template-columns: 320px minmax(0, 1fr);
-  gap: 48px;
+.top-nav {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 24px;
+  padding: 18px 24px;   /* ← THIS fixes the “tight” look */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.sidebar {
-  position: sticky;
-  top: 24px;
-  height: fit-content;
-}
-
-.content {
-  min-width: 0; /* prevents overflow */
-}
-
-/* ===== Sidebar card ===== */
-.profile {
-  border: 1px solid #e6e6e6;
-  border-radius: 14px;
-  padding: 20px;
-  background: #fff;
-}
-
-.profile h2 {
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.tagline {
-  margin-top: 12px;
-  margin-bottom: 16px;
-}
-
-/* Nav links */
-.nav a {
-  display: block;
-  padding: 8px 10px;
-  border-radius: 10px;
+.site-title a {
+  font-size: 1.25rem;
+  font-weight: 600;
   text-decoration: none;
+  color: #000;
 }
 
-.nav a:hover {
-  background: #f3f3f3;
+.nav-links {
+  display: flex;
+  gap: 28px;   /* ← clean spacing between menu items */
 }
 
-/* Small muted text */
-.muted {
-  color: #666;
+.nav-links a {
+  text-decoration: none;
   font-size: 0.95rem;
+  color: #0056b3;
+  white-space: nowrap;
 }
 
-/* Links area */
-.links a {
-  display: inline-block;
-  margin-right: 10px;
-  margin-top: 10px;
+.nav-links a:hover {
+  text-decoration: underline;
 }
 
-/* ===== Footer ===== */
-.site-footer {
-  margin-top: 48px;
-  padding: 24px 0;
-  border-top: 1px solid #e6e6e6;
-}
-
-/* ===== Mobile ===== */
+/* Mobile */
 @media (max-width: 900px) {
-  .two-col { grid-template-columns: 1fr; }
-  .sidebar { position: relative; top: auto; }
+  .top-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 16px;
+    flex-wrap: wrap;
+  }
 }
