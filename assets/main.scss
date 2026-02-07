@@ -1,42 +1,54 @@
 /* ===============================
-   Top navigation (clean & academic)
+   Top navigation (Ayush-style)
    =============================== */
 
 .site-header {
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #ededed;
   background: #ffffff;
 }
 
 .top-nav {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 18px 24px;   /* ← THIS fixes the “tight” look */
+  padding: 22px 32px;   /* more horizontal & vertical space */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+/* Site title (left) */
 .site-title a {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.15rem;
+  font-weight: 500;
   text-decoration: none;
-  color: #000;
+  color: #555;
 }
 
+/* Navigation links (right) */
 .nav-links {
   display: flex;
-  gap: 28px;   /* ← clean spacing between menu items */
+  align-items: center;
+  gap: 34px;   /* key: wider spacing like reference */
 }
 
 .nav-links a {
-  text-decoration: none;
   font-size: 0.95rem;
-  color: #0056b3;
+  font-weight: 400;
+  color: #6a6a6a;
+  text-decoration: none;
+  letter-spacing: 0.01em;
   white-space: nowrap;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Active page (optional but recommended) */
+.nav-links a.active {
+  color: #000;
+  font-weight: 500;
 }
 
 /* Mobile */
@@ -44,11 +56,11 @@
   .top-nav {
     flex-direction: column;
     align-items: flex-start;
-    gap: 12px;
+    gap: 14px;
   }
 
   .nav-links {
-    gap: 16px;
+    gap: 18px;
     flex-wrap: wrap;
   }
 }
