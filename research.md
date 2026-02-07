@@ -1,16 +1,16 @@
 ---
 layout: pagex
-title: Teaching and Outreach
+title: Research
 permalink: /teaching/
 ---
 
-## Teaching and Outreach
+## Research Interests
 
 My research focuses on the observational and physical understanding of radio emission from neutron stars, particularly radio pulsars and fast radio bursts (FRBs). I combine high-sensitivity radio observations with advanced data analysis techniques to investigate emission variability, magnetospheric processes, and timing behavior.
 
 ---
 
-## Current Research Interests
+## Current Research Work
 
 ### Radio Pulsars
 - Single-pulse emission analysis and pulse-to-pulse variability  
