@@ -1,14 +1,9 @@
 ---
 ---
-
-/* IMPORTANT:
-   Do NOT import "minima" unless your theme is minima.
-   This imports whatever theme is set in _config.yml (your build shows jekyll-theme-primer).
-*/
 @import "{{ site.theme }}";
 
 /* ===============================
-   Layout
+   Two-column layout
    =============================== */
 
 .two-col {
@@ -30,20 +25,20 @@
 }
 
 /* ===============================
-   Sidebar profile
+   Profile card
    =============================== */
 
 .profile {
   border: 1px solid #e6e6e6;
-  border-radius: 14px;
-  padding: 20px;
+  border-radius: 16px;
+  padding: 22px;
   background: #fff;
 }
 
 .profile-photo {
-  width: 130px;              /* refined */
-  height: 130px;             /* refined */
-  margin: 8px auto 14px auto;
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 16px auto;
   border-radius: 50%;
   overflow: hidden;
   border: 1px solid #e6e6e6;
@@ -53,39 +48,24 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
 }
-
-.muted {
-  color: #666;
-  font-size: 0.95rem;
-}
-
-.links a {
-  display: inline-block;
-  margin-right: 12px;
-  text-decoration: none;
-  color: #0056b3;
-}
-
-/* ===============================
-   Sidebar (refined academic size)
-   =============================== */
 
 .profile-name {
-  margin: 10px 0 6px 0;
-  font-size: 1.45rem;
-  line-height: 1.25;
-  font-weight: 600;
-  color: #222;
+  text-align: center;
+  font-size: 1.25rem;
+  margin: 12px 0 6px;
 }
 
 .profile-bio {
-  margin: 0 0 14px 0;
-  color: #666;
   font-size: 0.95rem;
-  line-height: 1.45;
+  color: #555;
+  text-align: center;
+  margin-bottom: 16px;
 }
+
+/* ===============================
+   Meta + links
+   =============================== */
 
 .profile-meta,
 .profile-links {
@@ -98,119 +78,57 @@
 .profile-links li {
   display: flex;
   align-items: center;
-  gap: 8px;
-  padding: 6px 0;
-  color: #444;
-  font-size: 0.9rem;
+  gap: 10px;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
 }
 
-.profile-links {
-  margin-top: 6px;
-  border-top: 1px solid #eee;
-  padding-top: 8px;
+.icon {
+  width: 18px;
+  height: 18px;
+  fill: #555;
+  flex-shrink: 0;
 }
 
-.profile-links li a {
-  color: #444;
+.profile-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #0056b3;
   text-decoration: none;
 }
 
-.profile-links li a:hover {
+.profile-links a:hover {
   text-decoration: underline;
 }
 
-.profile-meta svg,
-.profile-links svg {
-  width: 16px;
-  height: 16px;
-  flex: 0 0 16px;
-  fill: #444;
-  opacity: 0.85;
-}
-
 /* ===============================
-   Top navigation (FULL-WIDTH + centered)
+   Header (full-width, centered)
    =============================== */
 
-/* Ensure the header bar spans the full viewport */
 .site-header {
   width: 100%;
   border-bottom: 1px solid #ededed;
-  background: #ffffff;
+  background: #fff;
 }
 
-/* Center the content INSIDE the full-width bar */
 .site-header .top-nav {
-  width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding: 18px 32px;
-
   display: flex;
-  align-items: center;
   justify-content: space-between;
-
-  /* Prevent theme styles from shrinking it unexpectedly */
-  box-sizing: border-box;
-}
-
-/* If the theme applies a global wrapper/container that affects header children */
-.site-header * {
-  box-sizing: border-box;
-}
-
-.site-header .site-title a {
-  font-size: 1.05rem;
-  font-weight: 500;
-  color: #666;
-  text-decoration: none;
-}
-
-.site-header .nav-links {
-  display: flex;
   align-items: center;
-  gap: 34px;
-}
-
-.site-header .nav-links a {
-  font-size: 0.95rem;
-  font-weight: 400;
-  color: #6a6a6a;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.site-header .nav-links a:hover {
-  color: #000;
-}
-
-.site-header .nav-links a.active {
-  color: #000;
-  font-weight: 500;
 }
 
 /* ===============================
-   Footer (centered)
+   Footer (centered + auto year)
    =============================== */
 
 .site-footer {
+  border-top: 1px solid #e6e6e6;
   margin-top: 48px;
   padding: 24px 0;
-  border-top: 1px solid #e6e6e6;
-}
-
-/* Center footer text if footer uses a wrapper/footer-inner */
-.site-footer .wrapper,
-.site-footer .footer-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-  text-align: center;
-}
-
-/* Also center any direct paragraph in footer (safe fallback) */
-.site-footer p {
-  margin: 0;
   text-align: center;
 }
 
@@ -224,18 +142,6 @@
   }
 
   .sidebar {
-    position: relative;
-  }
-
-  .site-header .top-nav {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 14px;
-    padding: 18px 24px;
-  }
-
-  .site-header .nav-links {
-    gap: 18px;
-    flex-wrap: wrap;
+    position: static;
   }
 }
