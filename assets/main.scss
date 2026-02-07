@@ -1,5 +1,70 @@
+---
+---
+@import "minima";
+
 /* ===============================
-   Top navigation (Ayush-style)
+   Layout
+   =============================== */
+
+.two-col {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 48px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 24px;
+}
+
+.content {
+  min-width: 0;
+}
+
+/* ===============================
+   Sidebar profile
+   =============================== */
+
+.profile {
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 20px;
+  background: #fff;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  margin: 8px auto 16px auto;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid #e6e6e6;
+}
+
+.profile-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.muted {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.links a {
+  display: inline-block;
+  margin-right: 12px;
+  text-decoration: none;
+  color: #0056b3;
+}
+
+/* ===============================
+   Top navigation (FINAL)
    =============================== */
 
 .site-header {
@@ -10,17 +75,17 @@
 .site-header .top-nav {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 22px 32px;
+  padding: 18px 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .site-header .site-title a {
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 500;
+  color: #666;
   text-decoration: none;
-  color: #555;
 }
 
 .site-header .nav-links {
@@ -34,7 +99,6 @@
   font-weight: 400;
   color: #6a6a6a;
   text-decoration: none;
-  letter-spacing: 0.01em;
   white-space: nowrap;
 }
 
@@ -47,7 +111,29 @@
   font-weight: 500;
 }
 
+/* ===============================
+   Footer
+   =============================== */
+
+.site-footer {
+  margin-top: 48px;
+  padding: 24px 0;
+  border-top: 1px solid #e6e6e6;
+}
+
+/* ===============================
+   Mobile
+   =============================== */
+
 @media (max-width: 900px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: relative;
+  }
+
   .site-header .top-nav {
     flex-direction: column;
     align-items: flex-start;
