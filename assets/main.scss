@@ -1,6 +1,11 @@
 ---
 ---
-@import "minima";
+
+/* IMPORTANT:
+   Do NOT import "minima" unless your theme is minima.
+   This imports whatever theme is set in _config.yml (your build shows jekyll-theme-primer).
+*/
+@import "{{ site.theme }}";
 
 /* ===============================
    Layout
@@ -64,7 +69,7 @@
 }
 
 /* ===============================
-   Top navigation (FINAL)
+   Top navigation
    =============================== */
 
 .site-header {
