@@ -4,8 +4,6 @@ title: Research
 permalink: /research/
 ---
 
-_Last updated: 2026-02-07_
-
 ## Research Overview
 
 My research focuses on the observational and physical understanding of radio emission from neutron stars, particularly radio pulsars and fast radio bursts (FRBs). I combine high-sensitivity radio observations with advanced data analysis techniques to investigate emission variability, magnetospheric processes, and pulsar timing behavior.
