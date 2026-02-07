@@ -1,8 +1,10 @@
 ---
-layout: page
+layout: pagex
 title: CV
 permalink: /cv/
 ---
+
+## CV
 
 ## Habtamu Menberu Tedila
 
