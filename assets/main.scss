@@ -48,6 +48,7 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .profile-name {
@@ -60,7 +61,7 @@
   font-size: 0.95rem;
   color: #555;
   text-align: center;
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
 }
 
 /* ===============================
@@ -90,6 +91,7 @@
   flex-shrink: 0;
 }
 
+/* Make link rows look clean */
 .profile-links a {
   display: inline-flex;
   align-items: center;
@@ -103,10 +105,10 @@
 }
 
 /* ===============================
-   Header (FULL-WIDTH + not tight)
+   Header (FULL-WIDTH + centered + not tight)
    =============================== */
 
-/* Escape theme wrappers and force full-width bar */
+/* Escape theme wrappers and force full-width header bar */
 .site-header {
   width: 100vw;
   margin-left: calc(50% - 50vw);
@@ -115,7 +117,7 @@
   background: #fff;
 }
 
-/* Neutralize primer/minima/other theme containers INSIDE header only */
+/* Neutralize theme containers INSIDE header only */
 .site-header .container,
 .site-header .wrapper,
 .site-header .inner,
@@ -127,7 +129,7 @@
   padding-right: 0 !important;
 }
 
-/* Your centered header content */
+/* Our own centered header content */
 .site-header .top-nav {
   max-width: 1200px;
   margin: 0 auto;
@@ -136,6 +138,44 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+}
+
+/* ===============================
+   header links + active underline
+   =============================== */
+
+.site-header .site-title a {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #666;
+  text-decoration: none;
+}
+
+.site-header .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.site-header .nav-links a {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #6a6a6a;
+  text-decoration: none;
+  white-space: nowrap;
+
+  padding-bottom: 6px;                /* space for underline */
+  border-bottom: 2px solid transparent;
+}
+
+.site-header .nav-links a:hover {
+  color: #111;
+}
+
+.site-header .nav-links a.active {
+  color: #111;
+  font-weight: 500;
+  border-bottom-color: #111;
 }
 
 /* ===============================
@@ -163,6 +203,14 @@
   }
 
   .site-header .top-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
     padding: 18px 24px;
+  }
+
+  .site-header .nav-links {
+    gap: 18px;
+    flex-wrap: wrap;
   }
 }
