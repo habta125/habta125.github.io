@@ -103,26 +103,43 @@
 }
 
 /* ===============================
-   Header (full-width, centered)
+   Header (FULL-WIDTH + not tight)
    =============================== */
 
+/* Escape theme wrappers and force full-width bar */
 .site-header {
-  width: 100%;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   border-bottom: 1px solid #ededed;
   background: #fff;
 }
 
+/* Neutralize primer/minima/other theme containers INSIDE header only */
+.site-header .container,
+.site-header .wrapper,
+.site-header .inner,
+.site-header .page-content,
+.site-header .site-nav {
+  max-width: none !important;
+  margin: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Your centered header content */
 .site-header .top-nav {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 18px 32px;
+  padding: 20px 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
 }
 
 /* ===============================
-   Footer (centered + auto year)
+   Footer (centered)
    =============================== */
 
 .site-footer {
@@ -143,5 +160,9 @@
 
   .sidebar {
     position: static;
+  }
+
+  .site-header .top-nav {
+    padding: 18px 24px;
   }
 }
