@@ -4,18 +4,34 @@
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     </div>
 
-    <nav class="nav-links">
+    <nav class="nav-links" aria-label="Primary navigation">
       {% for path in site.header_pages %}
         {% assign p = site.pages | where: "path", path | first %}
-        {% if p %}
+        {% if p and p.title %}
+
+          {% assign is_active = false %}
+
+          {%- comment -%}
+          Active logic:
+          - Exact match for the page itself
+          - Also match subpaths (e.g., /research/... should keep Research active)
+          {%- endcomment -%}
+          {% if page.url == p.url %}
+            {% assign is_active = true %}
+          {% elsif p.url != "/" and page.url contains p.url %}
+            {% assign is_active = true %}
+          {% endif %}
+
           <a href="{{ p.url | relative_url }}"
-             class="{% if page.url == p.url %}active{% endif %}">
+             class="{% if is_active %}active{% endif %}">
             {{ p.title }}
           </a>
+
         {% endif %}
       {% endfor %}
     </nav>
   </div>
 </header>
+
 
 
