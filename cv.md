@@ -17,6 +17,7 @@ permalink: /cv/
 
 ## Academic Positions
 - **Postdoctoral Researcher**, McGill University, Canada
+- ** Former Postdoctoral Researcher**, National Astronomical Observatories, Chinese Academy of Sciences, China
 - **Lecturer**, Arba Minch University, Ethiopia
 
 ## Honors and Awards
