@@ -12,13 +12,13 @@ permalink: /cv/
 
 ## Education
 - **PhD in Astrophysics**, University of Chinese Academy of Sciences (UCAS), China
-- **MSc in Physics**, (University, Country)
-- **BSc in Physics**, (University, Country)
+- **MSc in Physics**, Addis Ababa University, Ethiopia
+- **BSc in Physics**, Debre Markos University, Ethiopia
 
 ## Academic Positions
-- **Postdoctoral Researcher**, McGill University, Canada
-- ** Former Postdoctoral Researcher**, National Astronomical Observatories, Chinese Academy of Sciences, China
-- **Lecturer**, Arba Minch University, Ethiopia
+- Postdoctoral Researcher, McGill University, Canada
+- Former Postdoctoral Researcher, National Astronomical Observatories, Chinese Academy of Sciences, China
+- Lecturer, Arba Minch University, Ethiopia
 
 ## Honors and Awards
 - Excellent International Student Award, UCAS (2022)
